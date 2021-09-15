@@ -38,9 +38,9 @@
                         <!-- Authentication Links -->
                         <li class="nav-item">
                         <?php if(checkAuth()): ?>
-                            <a class="nav-link" href="/login/logout"> Выход</a>
+                           Admin <a  class="btn btn-primary btn-sm" href="/login/logout"> Выход</a>
                         <?php else: ?>
-                            <a class="nav-link" href="/login">Авторизация</a>
+                            <a class="btn btn-primary btn-sm" href="/login">Авторизация</a>
                         <?php endif; ?>
                         <li>
                     </ul>
