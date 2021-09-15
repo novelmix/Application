@@ -43,6 +43,12 @@
                 </div>
               </div>
             </div>
+              <form>
+                  <nav class='navbar navbar-toggleable navbar-light bg-faded'>
+                      <a class="btn btn-primary" href="javascript:window.history.back();">Назад</a>
+                  </nav>
+
+              </form>
           </div>
         </div>
       </div>

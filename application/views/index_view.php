@@ -1,6 +1,6 @@
 <div class="container">
     <nav class='navbar navbar-toggleable navbar-light bg-faded'>
-        <a class="btn btn-primary" href="/main/create">Добавить</a>
+        <a class="btn btn-primary" href="/main/create"> + Новая Задача</a>
     </nav>
     <div class="card">
         <div class="card-body">
@@ -8,8 +8,8 @@
                 <thead>
                     <tr>
                         <th>Имя</th>
-                        <th>Задача</th>
                         <th>Email</th>
+                        <th>Задача</th>
                         <th>Статус</th>
                         <th>
                             <?php if(checkAuth()) echo 'Действие'; ?>
@@ -20,8 +20,8 @@
                     <?php foreach ($data[0] as $column => $row) : ?>
                         <tr>
                             <td><?=$row['name']?></td>
-                            <td><text><?=$row['text']?></text></td>
                             <td><?=$row['email']?></td>
+                            <td><text><?=$row['text']?></text></td>
                             <td><?=$row['status'] ? 'отредактировано администратором' : 'в процессе' ?></td>
                             <td>
                                 <?php if(checkAuth()): ?>
