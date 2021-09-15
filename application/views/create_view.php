@@ -6,7 +6,7 @@
           <div class="card-body"><!-- Начало текстового контента -->
             <ul class="nav nav-tabs">
               <li class="nav-item">
-                <a class="nav-link active" href="#">Основные данные</a>
+                <a class="nav-link active" href="#">Нова Задача</a>
               </li>
             </ul>
             <br>

@@ -75,6 +75,14 @@
                 class="form-control"
                 disabled="true">
             </div>
+              <div class="form-group">
+                  <label for="updated_at">Статус</label>
+                  <input name='updated_at' value="<?= $data[0]['status'] ?>"
+                         id='updated_at'
+                         type="text"
+                         class="form-control"
+                         disabled="true">
+              </div>
 
           </div>
         </div>

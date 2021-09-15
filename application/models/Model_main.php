@@ -57,6 +57,7 @@ class Model_main extends Model
         $email = $_POST['email'];
         $text = $_POST['description'];
 
+
         $name 	= $this->valid->validName($name);
         $email 	= $this->valid->validEmail($email);
         $text 	= $this->valid->validText($text);
@@ -72,7 +73,7 @@ class Model_main extends Model
         $id = $_GET['id'];
         $id = $this->valid->validId($id);
 
-        $query = "SELECT * FROM `exapmle` WHERE id=$id";
+        $query = "SELECT * FROM `example` WHERE id=$id";
         $result = $this->query($query) ?? '';
 
         $row = $result->fetch();

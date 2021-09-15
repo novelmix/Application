@@ -22,7 +22,7 @@
                             <td><?=$row['name']?></td>
                             <td><textarea><?=$row['text']?></textarea></td>
                             <td><?=$row['email']?></td>
-                            <td><?=$row['status'] ? 'отредактировано администратором' : ''?></td>
+                            <td><?=$row['status'] ? 'отредактировано администратором' : 'в процессе' ?></td>
                             <td>
                                 <?php if(checkAuth()): ?>
                                     <a href='/main/edit/?id=<?=$row["id"]?>' >edit</a>
