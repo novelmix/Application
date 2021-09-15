@@ -7,12 +7,12 @@
             <table class="table table-hover">
                 <thead>
                     <tr>
-                        <th>имя</th>
-                        <th>задача</th>
-                        <th>email</th>
-                        <th>статус</th>
+                        <th>Имя</th>
+                        <th>Задача</th>
+                        <th>Email</th>
+                        <th>Статус</th>
                         <th>
-                            <?php if(checkAuth()) echo 'ред.'; ?>
+                            <?php if(checkAuth()) echo 'Действие'; ?>
                         </th>
                     </tr>
                 </thead>
@@ -20,12 +20,15 @@
                     <?php foreach ($data[0] as $column => $row) : ?>
                         <tr>
                             <td><?=$row['name']?></td>
-                            <td><textarea><?=$row['text']?></textarea></td>
+                            <td><text><?=$row['text']?></text></td>
                             <td><?=$row['email']?></td>
                             <td><?=$row['status'] ? 'отредактировано администратором' : 'в процессе' ?></td>
                             <td>
                                 <?php if(checkAuth()): ?>
-                                    <a href='/main/edit/?id=<?=$row["id"]?>' >edit</a>
+
+                                    <a href='/main/edit/?id=<?=$row["id"]?>' class="btn btn-primary btn-sm"><i class="fa fa-edit"></i>EDIT</a>
+                                    <a href="/main/delete/?id=<?php echo $row['id']; ?>" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i>DELETE</a>
+
                                 <?php endif; ?>
                             </td>
                         </tr>

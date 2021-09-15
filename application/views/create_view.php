@@ -18,8 +18,9 @@
                      id='name'
                      type="text"
                      class="form-control"
-                     minlength="3"
-                     required>
+                     minlength="4"
+                     required
+                     placeholder="Имя">
                 </div>
 
                 <div class="form-group">
@@ -28,7 +29,9 @@
                    id='email'
                    type="email"
                    class="form-control"
-                   minlength="3">
+                   minlength="4"
+                         required
+                   placeholder="Email">
                 </div>
 
                 <div class="form-group">
@@ -36,7 +39,9 @@
                   <textarea name='description'
                    id='description'
                    class="form-control"
-                   rows="3"></textarea>
+                   rows="3"
+                            required
+                   placeholder="Описание задачи"></textarea>
                 </div>
               </div>
             </div>
