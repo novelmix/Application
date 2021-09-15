@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="81be20bb-3076-41ac-b617-50de9572abe7" name="Default" comment="" />
+=======
+    <list default="true" id="81be20bb-3076-41ac-b617-50de9572abe7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> c2116c8460b6dfa946f4b8bc0dd874455185679e
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +65,13 @@
       <file leaf-file-name="Model_main.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/Model_main.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="18">
               <caret line="87" column="33" lean-forward="true" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
+=======
+            <state relative-caret-position="-342">
+              <caret line="88" column="42" lean-forward="true" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
+>>>>>>> c2116c8460b6dfa946f4b8bc0dd874455185679e
             </state>
           </provider>
         </entry>
@@ -211,12 +222,16 @@
       <workItem from="1631138540588" duration="198000" />
       <workItem from="1631303051042" duration="14319000" />
       <workItem from="1631361731083" duration="3665000" />
-      <workItem from="1631704184571" duration="10610000" />
+      <workItem from="1631704184571" duration="11257000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="33558000" />
+=======
+    <option name="totallyTimeSpent" value="34180000" />
+>>>>>>> c2116c8460b6dfa946f4b8bc0dd874455185679e
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -445,6 +460,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/application/models/Model_main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -452,6 +468,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> c2116c8460b6dfa946f4b8bc0dd874455185679e
     <entry file="file://$PROJECT_DIR$/application/views/404_view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -470,6 +488,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
           <caret line="77" column="37" lean-forward="true" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+<<<<<<< HEAD
+=======
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Model_main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret line="88" column="42" lean-forward="true" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
+>>>>>>> c2116c8460b6dfa946f4b8bc0dd874455185679e
         </state>
       </provider>
     </entry>
