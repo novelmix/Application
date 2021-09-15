@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="81be20bb-3076-41ac-b617-50de9572abe7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Controller_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Controller_main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/Model_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/Model_main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/create_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/create_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/edit_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/edit_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/index_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/index_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/login_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/login_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/template_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/template_view.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,11 +49,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Controller_main.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Controller_main.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/Controller_main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="74" column="35" lean-forward="true" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
+            <state relative-caret-position="292">
+              <caret line="77" column="37" lean-forward="true" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Model_main.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/models/Model_main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-342">
+              <caret line="88" column="42" lean-forward="true" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -211,12 +213,12 @@
       <workItem from="1631138540588" duration="198000" />
       <workItem from="1631303051042" duration="14319000" />
       <workItem from="1631361731083" duration="3665000" />
-      <workItem from="1631704184571" duration="10610000" />
+      <workItem from="1631704184571" duration="11257000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33533000" />
+    <option name="totallyTimeSpent" value="34180000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -440,13 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/Model_main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="88" column="42" lean-forward="true" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/404_view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -463,8 +458,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/Controller_main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="74" column="35" lean-forward="true" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
+        <state relative-caret-position="292">
+          <caret line="77" column="37" lean-forward="true" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Model_main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret line="88" column="42" lean-forward="true" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
         </state>
       </provider>
     </entry>
