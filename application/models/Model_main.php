@@ -57,6 +57,7 @@ class Model_main extends Model
         $email = $_POST['email'];
         $text = $_POST['description'];
 
+
         $name 	= $this->valid->validName($name);
         $email 	= $this->valid->validEmail($email);
         $text 	= $this->valid->validText($text);
@@ -72,7 +73,7 @@ class Model_main extends Model
         $id = $_GET['id'];
         $id = $this->valid->validId($id);
 
-        $query = "SELECT * FROM `exapmle` WHERE id=$id";
+        $query = "SELECT * FROM `example` WHERE id=$id";
         $result = $this->query($query) ?? '';
 
         $row = $result->fetch();
@@ -81,20 +82,28 @@ class Model_main extends Model
     public function update()
     {
         $id = $_GET['id'];
-        $name 	= $_POST['name'];
-        $email 	= $_POST['email'];
+//        $name 	= $_POST['name'];
+//        $email 	= $_POST['email'];
         $text 	= $_POST['description'];
         $status = static::STATUS;
         $updated_at = date('Y-m-d H:i:s');
 
         $id 	= $this->valid->validId($id);
-        $name 	= $this->valid->validName($name);
-        $email 	= $this->valid->validEmail($email);
+//        $name 	= $this->valid->validName($name);
+//        $email 	= $this->valid->validEmail($email);
         $text 	= $this->valid->validText($text);
-
-        $query = "UPDATE `example` SET `name`='$name',`email`='$email',`text`='$text',`status`=$status,`updated_at`='$updated_at' WHERE id=$id";
+//        $query = "UPDATE `example` SET `name`='$name',`email`='$email',`text`='$text',`status`=$status,`updated_at`='$updated_at' WHERE id=$id";
+        $query = "UPDATE `example` SET `text`='$text',`status`=$status,`updated_at`='$updated_at' WHERE id=$id";
         $result = $this->query($query) ?? '';
 
+        return $result;
+    }
+
+    public function delete()
+    {
+        $id = $_GET['id'];
+        $query= "DELETE FROM example WHERE id=$id";
+        $result = $this->query($query) ?? '';
         return $result;
     }
 

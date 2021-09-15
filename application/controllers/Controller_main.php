@@ -69,5 +69,17 @@ class Controller_main extends Controller
         $this->view->generate('404_view.php', 'template_view.php', $msg);
 
     }
+    function action_delete()
+    {
+        $model = new Model_main();
+        $result = $model->delete();
+
+        if($result)
+            $msg = "Успешно Удалено";
+        else
+            $msg = "Ошибка Удаления";
+
+        $this->view->generate('404_view.php', 'template_view.php', $msg);
+    }
 
 }

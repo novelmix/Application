@@ -6,7 +6,7 @@
           <div class="card-body"><!-- Начало текстового контента -->
             <ul class="nav nav-tabs">
               <li class="nav-item">
-                <a class="nav-link active" href="#">Основные данные</a>
+                <a class="nav-link active" href="#">Задача</a>
               </li>
             </ul>
             <br>
@@ -19,7 +19,9 @@
                    type="text"
                    class="form-control"
                    minlength="3"
-                   required>
+                   required
+
+                         disabled="true">
                 </div>
 
                 <div class="form-group">
@@ -28,7 +30,8 @@
                    id='email'
                    type="email"
                    class="form-control"
-                   minlength="3">
+                   minlength="3"
+                         disabled="true">
                 </div>
 
                 <div class="form-group">
@@ -75,6 +78,14 @@
                 class="form-control"
                 disabled="true">
             </div>
+              <div class="form-group">
+                  <label for="updated_at">Статус</label>
+                  <input name='updated_at' value="<?= $data[0]['status'] ?>"
+                         id='updated_at'
+                         type="text"
+                         class="form-control"
+                         disabled="true">
+              </div>
 
           </div>
         </div>
